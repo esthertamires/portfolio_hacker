@@ -1,0 +1,40 @@
+/* cabeçalho */
+header{
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+/* imagem - logo do cabeçalho */
+.logo_image{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 25px; 
+}
+/* espaço da logo*/
+.container_logo {
+    display: flex;
+    align-items: center;
+}
+/* texto "HACKER ROXO"*/
+.logo_text{
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+/* LINHA DO MENU */
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+/* CONTEUDO DO MENU */
+.menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
